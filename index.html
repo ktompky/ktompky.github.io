@@ -1,34 +1,35 @@
+
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
- <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+   <!--to use the glyphicons that don't normally exist in bootstrap-->
+  <script src="https://use.fontawesome.com/2c485ccefc.js"></script>
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="navbar-header">
-<a class="navbar-brand" href="#">  </a>
+<a class="navbar-brand" href="#"></a>
 </div>
 <ul class="nav navbar-nav navbar-center">
 
 <li class="active"><a href="#About">About</a></li>
 <li class="active"><a href="#Portfolio">Portfolio</a></li>
-<li class="active"><a href="#Contactme">Contact</a></li>
+<li class="active"><a href="#contactMe">Contact</a></li>
 </ul>
 </div>
 </nav>
@@ -36,19 +37,20 @@
 <div id="About" class="container-fluid">
 <div class="container">
   <div style="background:transparent !important" class="jumbotron">
-    <h1>Kelly Tompkins</h1>
+    <h1>Hey!</h1>
     <br>
     <br>
-    <p>Web Developer</p>
+    <p>I'm Kelly, a web developer.</p>
     
   </div>
   </div>
-  <div id="Innercontainer">
+  
     <div id="Portfolio" class="container-fluid">
+      
   <div class="row">
     <div class="col-sm-4">
-      <h3>Project 1</h3>
-      <p><a href="pictureGallery.html"><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1.png" class="img-rounded" alt="Project" width="304" height="236"></a></p>
+      <h3>Image Gallery</h3>
+      <p><a href="pictureGallery.html"><a href="pictureGallery.html"><img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13076733_10154735510272646_1429739888174645255_n.jpg?oh=6c0354b3c19c7c01d8b6a2c1cffd7b78&oe=58E04101" class="img-rounded" alt="Project" width="304" height="236"></a></p>
     </div>
        <h3>Project 2</h3>
       <p><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1.png" class="img-rounded" alt="Project" width="304" height="236"></p>
@@ -73,44 +75,49 @@
 </div>
   </div>
   </div>
- <div id="Outercontainer">
-  <div id="Contactme" class="container-fluid">
-  <h3>Contact me!</h3> 
- <form>
-    Name: <br>
-    <input type="text" name="name"><br>
-    Email address: <br>
-    <input type="text" name="Email Address"><br>
-    Phone number: <br>
-    <input type="text" name="Phone number"><br>
-    Message: <br>
-    <input type="text" name="Message"><br><br><div id="buttondiv">
-   <input type="submit" value="submit"></div>
-  </form>
+
+ 
+ <footer class="container-fluid">
+   <div id="contactMe">
+<div class="row">
+  <div class="col-md-1">
   </div>
-  </div>
+  <div class="col-md-2">
+<h5>Let's get in touch!</h5>
+<p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:ktompkins@gmail.com"> k.tompkins005@gmail.com</a></p>
+<p><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/ktompkins005" alt="https://www.linkedin.com/in/ktompkins005"> Linkedin</a></p>
+<p><i class="fa fa-download" aria-hidden="true"></i><a href="https://www.dropbox.com/s/tpi455mjlgmpwkg/TechResumeKellyTompkins.docx?dl=0"> Download my resume!</a></p>
+
+</div>
+<div class="col-md-2">
+</div>
+
+  <div class="col-md-2">
+<h5>See my skills in action!</h5>
+      <p><i class="fa fa-codepen" aria-hidden="true"></i><a href="http://codepen.io/mysterymeer/" alt="http://codepen.io/mysterymeer/"> Codepen </a></p>
+    <p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/ktompky"  alt="https://github.com/ktompky"> Github</a></p>
+    <p><i class="fa fa-free-code-camp" aria-hidden="true"></i><a href="https://www.freecodecamp.com/ktompky" alt="https://www.freecodecamp.com/ktompky"> FreeCodeCamp</a></p>
   
-  <div id="socialmedia">
-    <h4>You can also find me here!</h4>
-    <a href="http://www.doggifpage.com/gifs/110.gif" alt="Linkedin"> 
-      <img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-3d-buttons-icons-social-media-logos/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" width="60px" height="60px"></a>
-    <a href="http://www.doggifpage.com/gifs/110.gif" alt="github">
-    <img src="http://image.flaticon.com/icons/png/512/25/25231.png" height="50px" width="50px">
-    </a>
-    <a href="http://www.doggifpage.com/gifs/110.gif" alt="freecodecamp">
-    <img src="http://s23.postimg.org/n201vuzyf/FCC_footer.png" height="50px" width="50px">
-    </a>
-    <a href="http://www.doggifpage.com/gifs/110.gif" alt="wordpress">
-    <img src="http://www.nicholascrutton.co.uk/wp-content/uploads/2009/11/WP-simple-black-square-icon-social-media-logos-wordpress-logo-square.png" height="70px" width="80px">
-    </a>
+</div>
+<div class="col-md-2">
   </div>
 
-
-
-
-</body>
-</html>
+<div class="col-md-2">
+<h5>See what I'm like outside Sublime!<h5>
+  <p><i class="fa fa-pinterest" aria-hidden="true"></i><a href="https://www.pinterest.com/msmeer/" alt="https://www.pinterest.com/msmeer/"> What will I never craft?</a></p>
+  <p><i class="fa fa-spotify" aria-hidden="true"></i><a href="https://play.spotify.com/user/missmeer88" alt="https://play.spotify.com/user/missmeer88"> My weird taste in music.</a></p>
+  <p><i class="fa fa-steam" aria-hidden="true"></i><a href="http://steamcommunity.com/profiles/76561198045739990/" alt="http://steamcommunity.com/profiles/76561198045739990/"> I play video games!</a></p>
+</div>
+<div class="col-md-1">
+  </div>
+</div>
+</div>
+</footer>
   
   
+
+
+
+
 </body>
 </html>
