@@ -1,0 +1,43 @@
+body {
+  background-color: gray;
+  font-family: 'Indie Flower', cursive;
+}
+.navbar {
+  font-size: 2em;
+}
+.container {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+h2 {
+  text-align: center;
+}
+.row {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+#Contactme {
+  color: white;
+}
+#buttondiv {
+  color: black;
+}
+#Outercontainer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#socialmedia {
+  color: white;
+  text-align: center;
+}
+
+
+
+
