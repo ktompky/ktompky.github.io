@@ -1,6 +1,7 @@
 body {
   background-color: gray;
   font-family: 'Raleway', sans-serif;
+  background-image: url("Images/Background.jpg");
 }
 .navbar {
   font-size: 2em;
@@ -22,6 +23,9 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   
+}
+#headshot {
+  border-radius: 50px;
 }
 
 footer {
