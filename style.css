@@ -1,14 +1,16 @@
 body {
-  background-color: gray;
+  background-color: #ffffe6;
   font-family: 'Raleway', sans-serif;
-  background-image: url("Images/Background.jpg");
+  color: brown;
+  
 }
 .navbar {
   font-size: 2em;
+  background-color: brown;
 }
 .container {
   text-align: center;
-  color: white;
+  color: brown;
   margin-top: 100px;
 }
 h2 {
@@ -17,8 +19,8 @@ h2 {
 
 .row {
   text-align: center;
-  color: white;
-  background-color: black;
+  color: brown;
+  background-color: #ecc6d9;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
