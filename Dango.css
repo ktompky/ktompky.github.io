@@ -1,0 +1,206 @@
+body {
+  background-color: #ebeb7f;
+}
+
+h1 {
+  text-align: left;
+  margin: auto;
+  color: #8b65c8;
+}
+
+.heart {
+  position: absolute;
+  align: center;
+  left: 550px;
+  margin: auto;
+  width: 100px;
+  height: 90px;
+  z-index: -1;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #ff99cc;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+#firstDango {
+  border-style: solid;
+  border-color: #eeaad9;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 45%;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 50%;
+  background: #ffe6f0;
+  box-shadow: 3px pink;
+  padding: 20px;
+  margin: 5px;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 325px;
+  top: 450px;
+}
+
+#secondDango {
+  border-style: solid;
+  border-color: #889de7;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 50%;
+  background: #cceeff;
+  box-shadow: 2px blue;
+  padding: 20px;
+  margin: 5px;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 625px;
+  top: 450px;
+}
+
+#blush1 {
+  background: #ffb3e6;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  box-shadow: 2px 2px 10px 10px #ffb3e6;
+  bottom: 75px;
+  left: 90px;
+}
+
+#blush2 {
+  background: #ffb3e6;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  box-shadow: 2px 2px 10px 10px #ffb3e6;
+  bottom: 75px;
+  left: 160px;
+}
+
+#verticalLine1 {
+  width: 3px;
+  background-color: black;
+  height: 35px;
+  position: absolute;
+  bottom: 125px;
+  left: 115px;
+  box-shadow: 2px 2px 5px 5px black;
+  border: solid 1px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%;
+  -webkit-transform: rotate(168deg);
+  -moz-transform: rotate(168deg);
+  -o-transform: rotate(168deg);
+  -ms-transform: rotate(168deg);
+  transform: rotate(168deg);
+}
+
+#verticalLine2 {
+  width: 3px;
+  background-color: black;
+  height: 35px;
+  position: absolute;
+  bottom: 125px;
+  left: 145px;
+  box-shadow: 2px 2px 5px 5px black;
+  border: solid 1px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%;
+  -webkit-transform: rotate(168deg);
+  -moz-transform: rotate(168deg);
+  -o-transform: rotate(168deg);
+  -ms-transform: rotate(168deg);
+  transform: rotate(168deg);
+}
+
+#verticalLine3 {
+  width: 3px;
+  background-color: black;
+  height: 35px;
+  position: absolute;
+  bottom: 125px;
+  left: 75px;
+  box-shadow: 2px 2px 5px 5px black;
+  border: solid 1px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%;
+  -webkit-transform: rotate(08deg);
+  -moz-transform: rotate(08deg);
+  -o-transform: rotate(08deg);
+  -ms-transform: rotate(08deg);
+  transform: rotate(08deg);
+}
+
+#verticalLine4 {
+  width: 3px;
+  background-color: black;
+  height: 35px;
+  position: absolute;
+  bottom: 125px;
+  left: 100px;
+  box-shadow: 2px 2px 5px 5px black;
+  border: solid 1px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 50%;
+  -webkit-transform: rotate(08deg);
+  -moz-transform: rotate(08deg);
+  -o-transform: rotate(08deg);
+  -ms-transform: rotate(08deg);
+  transform: rotate(08deg);
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  margin-top: 350px;
+}
+
+
+/*
+Not sure if necessary but doesn't seem like it.*/
+
+
+/*
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}*/

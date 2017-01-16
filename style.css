@@ -26,6 +26,12 @@ h2 {
   padding-bottom: 30px;
   
 }
+.iconProjects {
+  font-size: 1000%;
+}
+.col-sm-4 a {
+  color: white;
+}
 #headshot {
   border-radius: 50px;
 }
