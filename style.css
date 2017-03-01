@@ -1,17 +1,25 @@
 body {
-  background-color: #ffffe6;
+  background-color: #0D0628 ;
   font-family: 'Raleway', sans-serif;
-  color: brown;
   
+  background-image: url("Images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
+
 .navbar {
-  font-size: 2em;
-  background-color: brown;
+  font-size: 120%;
 }
+  
+
 .container {
   text-align: center;
-  color: brown;
+  
   margin-top: 100px;
+  width: 100%;
+
 }
 h2 {
   text-align: center;
@@ -19,11 +27,10 @@ h2 {
 
 .row {
   text-align: center;
-  color: brown;
-  background-color: #ecc6d9;
-  margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 100%;
+  
   
 }
 .iconProjects {
@@ -31,9 +38,13 @@ h2 {
 }
 .col-sm-4 a {
   color: white;
+  
 }
 #headshot {
   border-radius: 50px;
+}
+#contactMe {
+  text-align: center;
 }
 
 footer {
