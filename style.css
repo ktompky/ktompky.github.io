@@ -1,22 +1,16 @@
 body {
-  background-color: #0D0628 ;
   font-family: 'Raleway', sans-serif;
-  
-  background-image: url("Images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
+  background-color: honeydew;
+  }
 
 .navbar {
   font-size: 120%;
 }
-  
+
 
 .container {
   text-align: center;
-  
+
   margin-top: 100px;
   width: 100%;
 
@@ -30,15 +24,15 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
-  
-  
+
+
 }
 .iconProjects {
   font-size: 1000%;
 }
 .col-sm-4 a {
-  color: white;
-  
+  color: gray;
+
 }
 #headshot {
   border-radius: 50px;
@@ -54,6 +48,7 @@ footer {
   left: 0px;
   padding: 10px;
   margin-top: 10px;
+  text-align: center;
 }
 .col-md-2 {
   text-align: left;
@@ -71,9 +66,3 @@ footer {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-
-
-
-
-
