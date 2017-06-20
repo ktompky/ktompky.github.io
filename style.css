@@ -1,58 +1,58 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  background-color: honeydew;
+  font-family: 'Patrick Hand SC', cursive;
+  background-image: url('Images/Background.png');
+  background-size: cover;
   }
-
-.navbar {
-  font-size: 120%;
-}
-
-
 .container {
-  text-align: center;
-
   margin-top: 100px;
   width: 100%;
-
+  text-align:center;
 }
-h2 {
+h1 {
   text-align: center;
+  font-size: 300%;
 }
 
 .row {
-  text-align: center;
+
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
-
-
+  text-align: center;
 }
-.iconProjects {
-  font-size: 1000%;
+
+#cat {
+  height: 70px;
+  width: 60px;
 }
+
 .col-sm-4 a {
   color: gray;
 
 }
+
+
+img {
+  height: 75%;
+  width: 75%;
+}
 #headshot {
   border-radius: 50px;
+  text-align:center;
 }
 #contactMe {
   text-align: center;
 }
 
 footer {
-  position: relative;
+  position: absolute;
   right: 0;
   bottom: 0;
-  left: 0px;
-  padding: 10px;
-  margin-top: 10px;
+  margin: 0 auto;
   text-align: center;
+
 }
-.col-md-2 {
-  text-align: left;
-}
+
 
 
 #Contactme {
@@ -60,9 +60,4 @@ footer {
 }
 #buttondiv {
   color: black;
-}
-#Outercontainer {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
