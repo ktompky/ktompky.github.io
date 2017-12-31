@@ -2,62 +2,34 @@ body {
   font-family: 'Shadows Into Light', cursive;
   background-image: url('Images/Background.png');
   background-size: cover;
-  }
-.container {
-  margin-top: 100px;
+  height: 100%;
   width: 100%;
-  text-align:center;
-}
-h1 {
-  text-align: center;
-  font-size: 300%;
-}
-
-.row {
-
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 100%;
-  text-align: center;
-}
-
-#cat {
-  height: 70px;
-  width: 60px;
-}
-
-.col-sm-4 a {
-  color: gray;
-
-}
-
-
-img {
-  height: 75%;
-  width: 75%;
-}
-#headshot {
-  border-radius: 50px;
-  text-align:center;
-}
-#contactMe {
-  text-align: center;
-}
-
-footer {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 0 auto;
+  }
+
+#About {
+  height: 100%;
+  width: 100%;
   text-align: center;
-
 }
-
-
-
-#Contactme {
-  color: white;
+#About h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
-#buttondiv {
-  color: black;
+.arrow {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left: 0;
+    text-align:left;
+}
+.downArrow {
+  font-size: 24px;
+}
+#Portfolio {
+  width: 100%;
+  height: 100%;
 }
