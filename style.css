@@ -1,48 +1,56 @@
 body {
-  font-family: 'Shadows Into Light', cursive;
-  background-image: url('Images/background3.jpg') ;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+  background-color: #ffcce6;
+  font-family: 'Open Sans', sans-serif;
+}
+.container-fluid {
   position: absolute;
-  color: white;
-  }
 
-#About {
+}
+nav {
+  top: 0;
+  left: 0;
   height: 100%;
-  width: 100%;
   text-align: center;
-}
-#About h1 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-}
-.arrow {
-    position:absolute;
-    width:100%;
-    bottom:0;
-    left: 0;
-    text-align:left;
-}
-.downArrow {
-  font-size: 24px;
-}
-#Portfolio {
-  width: 100%;
-  height: 100%;
+
+   }
+
+nav a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: brown;
+  font-size: 110%;
+  margin: 10px;
+  /*text-align: left;*/
 }
 
-#socialmedia {
-  text-align: center;
-  font-size: 150%;
-}
-.navLink {
-  color: white;
-}
-#copyright {
-  text-align: center;
+.w3-sidenav a {
+  padding: 5px 0 !important;
 }
 
+h2 {
+  text-align: center;
+}
+p {
+  display: inline-flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+#container {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 50%;
+  position: relative;
+
+
+
+
+}
+img {
+  border-radius: 90px;
+}
+.innerContainer {
+  text-align: right;
+
+}
